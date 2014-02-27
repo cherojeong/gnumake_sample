@@ -1,6 +1,16 @@
-gnumake_sample
-==============
 
-Example Project for testing GNU Makefile Rule
+Check GNU make conditionals.
+Attempt various different flavors of GNU make conditionals.
+==========================================================
 
-by cherojeong@gmail.com
+#git checkout conditionals-case1
+
+#make
+
+
+Test expansion of variables inside ifdef.
+========================================
+
+#git checkout conditionals-case2
+
+#make
