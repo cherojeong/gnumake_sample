@@ -1,3 +1,5 @@
+.PHONY: clean
+
 all: main.o hello.o
 	gcc main.o hello.o -o target.out
 main.o: main.c hello.h
