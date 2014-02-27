@@ -12,18 +12,25 @@ You should run script like as belows
 and then type this command
 
 #git branch
+
 comments
+
 default_names
+
 echoing
+
 errors
+
 hello
+
 master
+
 *sample_project
 
 if you can see like it on output, you can change branch locally.
 
 
-#git checkout -b master or <sample_project>
+#git checkout -b master
 
 Let's get start!!
 
