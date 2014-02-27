@@ -12,13 +12,13 @@ You should run script like as belows
 and then type this command
 
 #git branch
-  comments
-  default_names
-  echoing
-  errors
-  hello
-  master
-  sample_project
+comments
+default_names
+echoing
+errors
+hello
+master
+*sample_project
 
 if you can see like it on output, you can change branch locally.
 
