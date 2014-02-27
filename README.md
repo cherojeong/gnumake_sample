@@ -1,6 +1,15 @@
-gnumake_sample
-==============
+#make -h
 
-Example Project for testing GNU Makefile Rule
+-n, --just-print, --dry-run, --recon
+  Don't actually run any commands; just print them.
 
-by cherojeong@gmail.com
+
+#make
+echo This makefile did not clean the dir... good
+This makefile did not clean the dir... good
+
+#make clean
+
+#make -n clean
+rm -f dummy.txt
+
