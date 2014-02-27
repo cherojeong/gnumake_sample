@@ -7,13 +7,16 @@ by cherojeong@gmail.com
 
 
 You should run script like as belows
-#./local_branch.sh
-
+\#./local_branch.sh
+-------------------
 and then type this command
 
-#git branch
+\#git branch
+------------
 
 comments
+
+conditionals
 
 default_names
 
@@ -25,12 +28,12 @@ hello
 
 master
 
-*sample_project
+sample_project
 
 if you can see like it on output, you can change branch locally.
 
-
-#git checkout -b master
+\#git checkout -b master
+------------------------
 
 Let's get start!!
 
