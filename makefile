@@ -1,26 +1,24 @@
+arg1 = first
+arg2 = second
+arg3 = third
+arg4 = cc
+arg5 = fifth
 
-foo = 1
+result =
 
-FOO = foo
-F = f
-
-DEF = no
-DEF2 = no
-
-ifdef $(FOO)
-DEF = yes
+ifeq ($(arg1),$(arg2))
+  result += arg1 equals arg2
+else ifeq '$(arg2)' "$(arg5)"
+  result += arg2 equals arg5
+else ifneq '$(arg3)' '$(arg3)'
+  result += arg3 NOT equal arg4
+else ifndef arg5
+  result += variable is undefined
+else ifdef undefined
+  result += arg4 is defined
+else
+  result += success
 endif
 
-ifdef $(F)oo
-DEF2 = yes
-endif
-
-
-DEF3 = no
-FUNC = $1
-ifdef $(call FUNC,DEF)3
-  DEF3 = yes
-endif
-
-all:
-	@echo DEF=$(DEF) DEF2=$(DEF2) DEF3=$(DEF3)','','DEF=yes DEF2=yes DEF3=yes
+all: 
+	@echo $(result)','','success

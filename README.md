@@ -14,3 +14,10 @@ Test expansion of variables inside ifdef.
 
 #make
 
+
+Test all the different "else if..." constructs
+==============================================
+
+#git checkout conditionals-case3
+
+#make
